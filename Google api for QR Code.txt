@@ -1,0 +1,9 @@
+<!-- Google api code for QR code Generators -->
+
+
+
+=IMAGE("https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl="& ENCODEURL($A2&", "&$B2&", "&$C2))
+
+="https://chart.googleapis.com/chart?cht=qr&chl=" & ENCODEURL($B9) & "&chs=200x200"
+
+=IMAGE("https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=Name:"& ENCODEURL($A2&", "&$B2&", "&$C2))
